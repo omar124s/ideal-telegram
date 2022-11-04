@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Contact RCC Designers</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<style>
+body{
+	background-image: url("image/bkgdContact.jpg");
+}
+</style>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+	
+<header>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html">RCC 1600</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="portfolio.html">Portfolio</a>
+      </li>
+	  <li class="nav-item active">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+  <div id="logo">
+	  <img src="image/Logo.png" width="80" height="80" alt=""/>
+  </div>
+</header>
+	
+<main>
+ 
+  <section id="rightSec">
+	  <h2>Contact</h2>
+	  <form action="formmail.php" method="post" id="contactform">
+	    <label>Name:</label>
+		  <input name="name" type="text" autofocus="autofocus" required="required" id="name" form="contactform">
+		  <label>E-mail:</label>
+		  <input name="mail" type="email" required="required" id="mail">
+		  <label>Comments:</label>
+		  <textarea name="textarea" required="required" id="textarea" form="contactform" placeholder="right your comment here"> 
+          </textarea>
+		  <input name="submit" type="submit" id="submit" value="send">
+	  </form>
+ </section>
+	 <aside id="leftSec">
+    <a class="twitter-timeline" data-width="100%" data-height="600" data-theme="light" href="https://twitter.com/paultrani?ref_src=twsrc%5Etfw">Tweets by paultrani</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+  </aside>
+</main>
+	
+<footer>RCC Copyright 2023. Made with 100% recycled pixels.</footer>
+	
+<script src="js/jquery-3.6.0.js"></script>
+<script src="js/bootstrap.js"></script>
+	
+</body>
+</html>
